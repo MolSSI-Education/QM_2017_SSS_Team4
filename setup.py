@@ -2,13 +2,13 @@ import setuptools
 
 if __name__ == "__main__":
     setuptools.setup(
-        name='fcm',
+        name='QM_2017_SSS_Team4',
         version="0.1.1",
         description='A starting template for Python programs',
-        author='Daniel Smith',
-        author_email='dgasmith@vt.edu',
-        url="https://github.com/dgasmith/friendly-computing-machine",
-        license='BSD-3C',
+        author='Prachi Sharma',
+        author_email='sharm387@umn.edu',
+        url="https://github.com/sharm387/cuddly-octo-invention.git",
+        license='BSD-2C',
         packages=setuptools.find_packages(),
         install_requires=[
             'numpy>=1.7',
