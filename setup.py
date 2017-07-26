@@ -2,7 +2,7 @@ import setuptools
 
 if __name__ == "__main__":
     setuptools.setup(
-        name='friendly-computing-machine',
+        name='fcm',
         version="0.1.1",
         description='A starting template for Python programs',
         author='Daniel Smith',

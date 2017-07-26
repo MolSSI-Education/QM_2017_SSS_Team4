@@ -1,14 +1,13 @@
 """
  Testing for the math.py module.
  """
- 
-import friendly_computing_machine as fcm
+from fcm.math import add, mult
 import pytest
  
 def test_add():
-    assert fcm.math.add(5, 2) == 7
-    assert fcm.math.add(2, 5) == 7
-    assert fcm.math.add(1, 2) == 3
+    assert add(5, 2) == 7
+    assert add(2, 5) == 7
+    assert add(1, 2) == 3
  
 testdata  = [
      (2, 5, 10),
@@ -19,5 +18,5 @@ testdata  = [
 ]
 @pytest.mark.parametrize("a,b,expected", testdata)
 def test_mult(a, b, expected):
-    assert fcm.math.mult(a, b) == expected
-    assert fcm.math.mult(b, a) == expected
+    assert mult(a, b) == expected
+    assert mult(b, a) == expected
