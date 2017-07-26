@@ -2,13 +2,12 @@ import setuptools
 
 if __name__ == "__main__":
     setuptools.setup(
-        name='QM_Team4',
         version="0.1.1",
-        description='A compilation of SCF programs',
-        author='Vidushi Sharma',
-        author_email='vidushi1000@gmail.com',
-        url="https://github.com/vidsharma/QM_2017_SSS_Team4.git",
-        license='BSD-3C',
+        description='A starting template for Python programs',
+        author='Prachi Sharma',
+        author_email='sharm387@umn.edu',
+        url="https://github.com/sharm387/cuddly-octo-invention.git",
+        license='BSD-2C',
         packages=setuptools.find_packages(),
         install_requires=[
             'numpy>=1.7',
