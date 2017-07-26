@@ -1,0 +1,32 @@
+# After changing this file, check it o:
+#   http://lint.travis-ci.org/
+language: python
+
+# Run obs on container-based infrastructure, can be overridden per job
+sudo: false
+
+matrix:
+  include:
+    - python: 2.7
+    - python: 3.5
+    - python: 3.6
+
+before_install:
+  # These things are really useful for debugging when things go wrong
+  - uname -a
+  - free -m
+  - df -h
+  - ulimit -a
+  - python -V
+  # Install environment via pip
+  - pip install --upgrade pip setuptools
+  - pip install pytest pytest-cov
+  - pip install numpy
+  - pip install codecov
+  # Install my code
+  
+script:
+  
+  
+notifications:
+    email: false
