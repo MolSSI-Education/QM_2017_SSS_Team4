@@ -18,3 +18,4 @@ testdata = [
 @pytest.mark.parametrize("a,b,expected", testdata)
 def test_mult(a,b,expected):
     assert coi.math.mult(a,b) == expected 
+
