@@ -2,7 +2,6 @@ import setuptools
 
 if __name__ == "__main__":
     setuptools.setup(
-        name='QM_2017_SSS_Team4',
         version="0.1.1",
         description='A starting template for Python programs',
         author='Prachi Sharma',
